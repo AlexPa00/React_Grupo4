@@ -15,7 +15,18 @@ code {
     monospace;
 }
 
-a {
+/*a {
   text-decoration: none;
   color: white;
+}*/
+
+a {
+  color: rgba(240, 248, 255, 0.863);
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 18px;
+}
+ a:hover,
+ a.active {
+  color: rgb(245, 117, 206);
 }
